@@ -26,4 +26,4 @@ MySQL: Database management
 
 CONTRIBUTION
 We welcome contributions from the community! If you'd like to contribute to BloomBaby, please fork this repository, make your changes, and submit a pull request.
->>>>>>> 96a532f2508dd64ef8ea5ba779e2794396050f7f
+
