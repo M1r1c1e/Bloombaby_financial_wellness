@@ -12,7 +12,7 @@ Enjoy a collection of light-hearted quotes to add some humor and relief to your 
 3. Parents Corner
 Discover advice and articles tailored for expectant parents, offering strategies to manage the challenges of parenthood.
 
-GET STARTED 
+GET STARTED: 
 To get started with BloomBaby, follow these steps:
 Clone this repository to your local machine.
 Install the necessary dependencies by running npm install.
