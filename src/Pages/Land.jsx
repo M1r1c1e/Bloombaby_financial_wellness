@@ -12,7 +12,7 @@ const Land = () => {
           <h1 className="text-6xl font-bold mb-4">Welcome to BloomBaby</h1>
           <p className="text-2xl mb-8">Your ultimate financial wellness platform for expectant parents.</p>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            <Link to="/auth">Get Started</Link>
+            <Link to="/home">Get Started</Link>
           </button>
         </div>
       </div>
@@ -47,7 +47,7 @@ const Land = () => {
           <h2 className="text-4xl font-bold mb-4">Join Our Community</h2>
           <p className="text-xl mb-8">Sign up today and start your journey towards financial wellness with BloomBaby.</p>
           <button className="bg-white text-blue-500 hover:bg-gray-100 font-bold py-2 px-4 rounded">
-            <Link to="/auth">Sign Up Now</Link>
+            <Link to="/home">Sign Up Now</Link>
           </button>
         </div>
       </div>
