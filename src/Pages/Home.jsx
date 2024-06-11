@@ -35,7 +35,6 @@ const Home = () => {
           </div>
         )}
         <Link to="/about" className="text-gray-900 hover:text-gray-600">About</Link>
-        <button type="button" className="text-gray-900 hover:text-gray-600">logout</button>
       </div>
     </nav>
   </div>
