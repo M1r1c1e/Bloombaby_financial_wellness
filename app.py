@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, abort
+from flask import Flask, jsonify, request, abort, send_from_directory
 from os import urandom
 from database import db
 from dbtable import User, humor, guidance, conner
@@ -12,8 +12,16 @@ import secrets
 
 load_dotenv()
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="../client/build", static_url_path="")
 CORS(app)
+
+@app.route('/')
+def serve():
+    return send_from_directory(app.static_folder, 'index.html')
+
+@app.route('/<path:path>')
+def serve_static(path):
+    return send_from_directory(app.static_folder, path)
 
 database_url = os.getenv('DATABASE_URL')
 
